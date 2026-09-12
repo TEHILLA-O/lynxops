@@ -1,0 +1,18 @@
+[package]
+name = "lynx-snapshot"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+description = "Incident snapshot capture and load for LynxOps"
+
+[dependencies]
+chrono.workspace = true
+lynx-cgroup.workspace = true
+lynx-core.workspace = true
+lynx-network.workspace = true
+lynx-proc.workspace = true
+lynx-systemd.workspace = true
+serde.workspace = true
+serde_json.workspace = true

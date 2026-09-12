@@ -1,0 +1,17 @@
+[package]
+name = "lynx-tui"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+description = "Ratatui dashboard for LynxOps"
+
+[dependencies]
+crossterm.workspace = true
+lynx-cgroup.workspace = true
+lynx-core.workspace = true
+lynx-network.workspace = true
+lynx-proc.workspace = true
+lynx-systemd.workspace = true
+ratatui.workspace = true

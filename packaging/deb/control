@@ -1,0 +1,10 @@
+Package: lynxops
+Version: 0.1.0
+Section: admin
+Priority: optional
+Architecture: amd64
+Maintainer: LynxOps Contributors
+Depends: libc6
+Description: Linux observability and incident-triage CLI/TUI
+ LynxOps inspects processes, cgroups, sockets, systemd units, and the
+ journal, then correlates them for incident response.

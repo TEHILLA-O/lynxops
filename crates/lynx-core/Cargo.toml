@@ -1,0 +1,13 @@
+[package]
+name = "lynx-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+description = "Shared types, errors, and formatting for LynxOps"
+
+[dependencies]
+chrono.workspace = true
+serde.workspace = true
+thiserror.workspace = true

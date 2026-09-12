@@ -1,0 +1,12 @@
+Name:	systemd
+Umask:	0022
+State:	S (sleeping)
+Tgid:	1
+Pid:	1
+PPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Threads:	1
+VmRSS:	    8900 kB
+VmSize:	   18000 kB
+CapEff:	000001ffffffffff

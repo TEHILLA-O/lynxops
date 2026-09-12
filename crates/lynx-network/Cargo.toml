@@ -1,0 +1,12 @@
+[package]
+name = "lynx-network"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+description = "Socket and interface collectors for LynxOps"
+
+[dependencies]
+lynx-core.workspace = true
+lynx-proc.workspace = true
