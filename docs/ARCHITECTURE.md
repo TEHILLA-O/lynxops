@@ -38,7 +38,7 @@ LynxOps is a Rust workspace of small collectors behind one CLI/TUI. The binary d
 
 ## CPU accounting
 
-`ps` and the TUI take two `/proc/stat` + `/proc/<pid>/stat` samples (~150–200 ms). Process CPU% is:
+`ps` and the TUI take two `/proc/stat` + `/proc/<pid>/stat` samples (~150-200 ms). Process CPU% is:
 
 ```text
 (delta(utime+stime) / delta(system total ticks)) * logical_cpus * 100
@@ -66,3 +66,11 @@ process → cgroup → net → systemd/journal → TUI → snapshot → eBPF
 ```
 
 Each layer is a crate with its own tests. The CLI only composes them.
+
+## Related docs
+
+- [PROCFS.md](PROCFS.md)
+- [CGROUPS.md](CGROUPS.md)
+- [NAMESPACES.md](NAMESPACES.md)
+- [EBPF.md](EBPF.md)
+- [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
