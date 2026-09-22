@@ -2,6 +2,8 @@
 
 **Linux observability and incident-triage CLI/TUI.**
 
+See [FAILURES.md](./FAILURES.md) for what can go wrong, what broke, how it was fixed, and results.
+
 LynxOps reads the host through `/proc`, cgroupfs, socket tables, systemd, and the journal, then joins those views so a process is never just a PID — it is a unit, a cgroup, a set of sockets, and a recent log trail. eBPF is the advanced layer, not the on-ramp.
 
 ```
